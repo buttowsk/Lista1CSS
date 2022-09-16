@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0d1117;
+}
+
+main{
+    animation: mover 3s ease-in;
+}
+
+.login {
+    display: grid;
+    margin-top: 30vh;
+    padding: 16px 16px 16px 16px;
+    justify-content: center;
+    align-items: center;
+    width: 308px;
+    height: 220px;
+    background-color: #161b22;
+    border: 1px solid #21262D;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.cadastrar {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px solid #30363D;
+    margin: 16px 0 10px 0;
+    padding: 16px 16px 10px 16px;
+}
+
+input {
+    color: #30363D;
+    border: 1px solid  #30363D;
+    margin: 4px 0 16px 0;
+    padding: 5px 12px 5px 12px;
+    width: 274px;
+    height: 32px;
+    border-radius: 6px 6px 6px 6px;
+}
+
+button {
+    background-color: springgreen;
+    color: #30363D;
+    border: 1px solid  #30363D;
+    margin: 4px 0 16px 0;
+    padding: 5px 16px 5px 16px;
+    width: 300px;
+    height: 32px;
+    border-radius: 6px 6px 6px 6px;
+    cursor: pointer;
+}
+
+
+@keyframes mover {
+    from {
+        transform: translateY(-100vh);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-top: 40vh;
+    animation: giragira 3s infinite;
+}
+
+@keyframes giragira {
+    100% {
+        transform: rotate(45deg);
+    }
+
+
+}

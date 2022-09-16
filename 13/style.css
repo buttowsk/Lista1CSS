@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    margin: 10px 10px 10px 10px;
+    width: 200px;
+    height: 200px;
+    margin-top: 40vh;
+    background-color: springgreen;
+    animation: mover 2s infinite;
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-200px);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+    
+}

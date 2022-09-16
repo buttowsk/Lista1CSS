@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    margin-top: 40vh;
+    animation: aumentando 4s infinite ease-in;
+}
+
+
+@keyframes aumentando {
+    from {
+        width: 0px;
+        height: 0px;
+        background-color: cadetblue;
+    }
+    
+    to {
+        width: 200px;
+        height: 200px;
+        background-color: chartreuse;
+    }
+}

@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: springgreen;
+    margin-top: 40vh;
+    animation: pulsadinha 1s infinite;
+    position: relative;
+}
+
+@keyframes pulsadinha {
+    0% {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.2) rotate(360deg);
+    }
+
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}

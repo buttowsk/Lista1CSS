@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin-top: 40vh;
+    animation: mudarCor 3s alternate;
+}
+
+
+
+
+@keyframes mudarCor {
+    12.5% {
+        background-color: springgreen;
+        transform: rotate(45deg);
+        
+    }
+
+    25% {
+        background-color: cadetblue;
+        transform: rotate(45deg);
+    }
+
+    37.5% {
+        
+        background-color: cornflowerblue;
+        transform: rotate(45deg);
+    }
+
+    50% {
+        
+        background-color: darkgrey;
+        transform: rotate(45deg);
+    }
+
+    62.5% {
+        
+        background-color: cyan;
+        transform: rotate(45deg);
+    }
+
+    75% {
+        
+        background-color: darkcyan;
+        transform: rotate(45deg);
+    }
+
+    87.5% {
+        
+        background-color: darkturquoise;
+        transform: rotate(45deg);
+    }
+    
+    100% {
+        
+        background-color: darkolivegreen;
+        transform: rotate(45deg);
+    }
+
+}

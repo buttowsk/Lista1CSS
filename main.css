@@ -13,7 +13,7 @@ body {
 
 main {
 	display: grid;
-	margin-top: 40vh;
+	margin-top: 40px;
 	text-decoration: none;
 	font-family: 'Quicksand', sans-serif;
 	font-size: 1.2rem;
